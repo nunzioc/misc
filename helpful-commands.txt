@@ -1,0 +1,6 @@
+" use this command to recover a deleted text file
+" A and B are fuzzy values that can be adjusted
+grep -a -B 25 -A 100 'string in lost file' /dev/sda1 > results.txt
+
+" use this command to get a decent starter vim file
+cp -v /usr/share/vim/vim*/vimrc_example.vim ~/.vimrc
