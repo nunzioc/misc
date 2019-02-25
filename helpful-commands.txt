@@ -4,3 +4,13 @@ grep -a -B 25 -A 100 'string in lost file' /dev/sda1 > results.txt
 
 " use this command to get a decent starter vim file
 cp -v /usr/share/vim/vim*/vimrc_example.vim ~/.vimrc
+
+
+" GIT
+
+" prune origin branches while fetching
+git fetch -p
+
+" if pulling causes conflicts you can ignore them by
+git reset --hard origin/my-branch
+
