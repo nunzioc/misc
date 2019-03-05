@@ -8,6 +8,9 @@ cp -v /usr/share/vim/vim*/vimrc_example.vim ~/.vimrc
 " go to previous directory
 cd -
 
+" search bash history
+hotkey <ctrl>-r
+
 " GIT
 
 " prune origin branches while fetching
