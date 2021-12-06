@@ -1,0 +1,4 @@
+You would think that `git reset --hard <commit>` changes your working tree to be the same as <commit>.
+But no! You have to tun `git clean -f -d` first to get rid of untracked files.
+
+To get rid of your current changes you could use `git restore .` but `git stash save --keep-index --include-untracked` is best since it safely keeps your changes.
